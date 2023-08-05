@@ -2,7 +2,7 @@
 import pandas as pd
 
 # Importing cancer dataset
-dataset = pd.read_csv(r'C:\Users\jaisi\Documents\Jai\Programs\College\Logistic Regression\data.csv')
+dataset = pd.read_csv(r'...\data.csv')
 X = dataset.iloc[:, 2:31].values
 Y = dataset.iloc[:, 1].values
 
