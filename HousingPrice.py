@@ -1,5 +1,3 @@
-# Created by Jai_RA2212701010011
-
 # Importing modules
 import pandas as pd
 import matplotlib.pyplot as plt
