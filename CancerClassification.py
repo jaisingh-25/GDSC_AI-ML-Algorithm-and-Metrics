@@ -4,7 +4,6 @@ import pandas as pd
 dataset = pd.read_csv(r'...\data.csv')
 X = dataset.iloc[:, 2:31].values
 Y = dataset.iloc[:, 1].values
-
 # Encoding categorical data values
 from sklearn.preprocessing import LabelEncoder
 labelencoder_Y = LabelEncoder()
