@@ -1,6 +1,5 @@
 # Importing the libraries
 import pandas as pd
-
 # Importing cancer dataset
 dataset = pd.read_csv(r'...\data.csv')
 X = dataset.iloc[:, 2:31].values
