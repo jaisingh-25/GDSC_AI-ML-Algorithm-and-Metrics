@@ -22,7 +22,6 @@ from sklearn.linear_model import LogisticRegression
 classifier = LogisticRegression(random_state = 0)
 classifier.fit(X_train, Y_train)
 Y_pred = classifier.predict(X_test)
-
 # Calculating accuracy from confusion matrix
 from sklearn.metrics import confusion_matrix
 cm = confusion_matrix(Y_test, Y_pred)
