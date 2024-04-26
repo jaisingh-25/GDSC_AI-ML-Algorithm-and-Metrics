@@ -1,4 +1,4 @@
-# Importing the libraries
+
 import pandas as pd
 # Importing cancer dataset
 dataset = pd.read_csv(r'...\data.csv')
