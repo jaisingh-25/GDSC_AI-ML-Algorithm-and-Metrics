@@ -12,7 +12,6 @@ model = LinearRegression()
 model.fit(x_train, y_train)
 predictions = model.predict(x_test)
 plt.scatter(y_test, predictions)
-
 # Calculating mean squared error
 from sklearn import metrics
 mse=metrics.mean_squared_error(y_test, predictions)
