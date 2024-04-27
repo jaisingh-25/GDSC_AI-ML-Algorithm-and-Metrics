@@ -1,6 +1,5 @@
 import pandas as pd
 import matplotlib.pyplot as plt
-
 # Reading dataset and assigning x and y
 raw_data = pd.read_csv(r'...\ParisHousing.csv')
 x = raw_data[['squareMeters', 'numberOfRooms', 'hasYard', 'hasPool', 'floors', 'cityCode', 'cityPartRange',
