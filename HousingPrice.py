@@ -5,7 +5,6 @@ x = raw_data[['squareMeters', 'numberOfRooms', 'hasYard', 'hasPool', 'floors', '
               'numPrevOwners', 'made', 'isNewBuilt', 'hasStormProtector', 'basement', 'attic', 'garage',
               'hasStorageRoom', 'hasGuestRoom']]
 y = raw_data['price']
-
 # Splitting into test and train data
 from sklearn.model_selection import train_test_split
 x_train, x_test, y_train, y_test = train_test_split(x, y, test_size = 100)
