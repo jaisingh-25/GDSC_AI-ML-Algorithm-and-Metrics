@@ -6,4 +6,4 @@ This project contains 2 different models - 1 for Linear Regression (House Pricin
 The ParisHousing.csv dataset has been used to train the Linear Regression model and the data.csv dataset has been used to train the Logistic Regression model.  
 
 Screenshot (216) - House_Pricing  
-Screenshot (217) - Cancer_Classification
+Screenshot (217) - Cancer Classification
